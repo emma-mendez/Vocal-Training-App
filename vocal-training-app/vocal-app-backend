@@ -1,0 +1,39 @@
+const express = require ('express')
+const cors = require ('cors')
+const app = express ()
+
+
+app.use (cors())
+
+// GET /tracks
+// POST /tracks
+
+app.get('/tracks', (req, res) => {
+    res.json({ message: 'unuctionder ' })
+})
+
+app.post('/tracks', (req, res) => {
+    res.json({ message: 'unuctio ' })
+})
+
+app.get('/artist', (req, res) => {
+    res.json({ message: 'under construction' })
+})
+
+app.get ('/', (req, res) => {
+    res.json({
+        Status: 'Success',
+        data: 'myJson'
+    })
+})
+
+
+
+
+
+
+
+
+app.listen(4000,() => {
+    console.log('Server Running Emma')
+})
