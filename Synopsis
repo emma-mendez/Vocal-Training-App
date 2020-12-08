@@ -8,11 +8,13 @@ The aim of this vocal training app is to:
   
 # LANGUAGES
 Im proposing to use the following languages and by process of elimination, simplyfiy the project to only use the languages neccessary. Unsure at this point
+- Node.Js
 - HTML
 - Java Script
 - React
 - Mongo DB
 - C# (with the help of my friend to capture sound and compare)
+
 
 # INPUTS
 
@@ -21,7 +23,17 @@ Im proposing to use the following languages and by process of elimination, simpl
 # NOTES
 
 # LINKS
+What APIS are already out there?
+ - vocal scales 
+ - quantizing
+ - 
 
-# COMPONENT
+# COMPONENTS
+Login - databasing
+Sign Up - databasing
+On click functions - routing
+Free to access feature
+Members only features
+
 
 
